@@ -1,0 +1,21 @@
+{
+  "name": "typescript-node-api-docker",
+  "version": "1.0.0",
+  "description": "This project provides a simple boilerplate for building a RESTful API using TypeScript and Node.js, and containerizing it with Docker.",
+  "main": "index.ts",
+  "repository": "https://github.com/anufdo/typescript-node-api-docker.git",
+  "author": "Anuradha Fernando <anufdo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "express": "^4.19.2",
+    "mongoose": "8.2.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.4"
+  }
+}
